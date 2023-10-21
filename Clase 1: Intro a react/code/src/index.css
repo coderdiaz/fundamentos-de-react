@@ -1,0 +1,105 @@
+body {
+  background-color: #060505;
+  font-family: 'Inter', sans-serif;
+}
+
+.divisor {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+}
+
+/**
+ * Widget Styles
+ */
+.widget {
+  padding: 44px;
+  background-color: white;
+  border-radius: 24px;
+  width: 656px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/**
+ * Searchbox Styles
+ */
+.search__box {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.input__search {
+  all: unset;
+  padding: 10px 16px;
+  background-color: #F3F3F3;
+  color: black;
+  width: 100%;
+  border-radius: 6px;
+}
+
+/**
+ * ProductList Styles
+ */
+
+.product__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.product__list-title {
+  font-size: 16px;
+  color: #888888;
+  font-weight: 500;
+}
+
+/**
+ * Category Styles
+ */
+.category__item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.category__item-title {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+/**
+ * ProductItem Styles
+ */
+.product__item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.product__item-name {
+  font-weight: 500;
+}
+
+/**
+ * Button Styles
+ */
+.btn {
+  all: unset;
+  cursor: pointer;
+  background-color: black;
+  padding: 6px 12px;
+  color: white;
+  border-radius: 8px;
+}
